@@ -1,0 +1,6 @@
+// @ts-nocheck -- skip type checking
+import * as d_docs_0 from "../content/docs/index.mdx?collection=docs"
+import { _runtime } from "fumadocs-mdx/runtime/next"
+import * as _source from "../source.config"
+export const docs = _runtime.doc<typeof _source.docs>([{ info: {"path":"index.mdx","fullPath":"content/docs/index.mdx"}, data: d_docs_0 }]);
+export const meta = _runtime.meta<typeof _source.meta>([{"info":{"path":"meta.json","fullPath":"content/docs/meta.json"},"data":{"title":"Documentation","pages":["index"]}}]);
